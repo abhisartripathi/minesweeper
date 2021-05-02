@@ -1,0 +1,79 @@
+body {
+  font-family: sans-serif;
+  background: #c8cfda;
+}
+.header {
+  background: #1360EE;
+  color: white;
+  padding: 5px 10px;
+}
+.container {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  gap: 4px;
+  grid-auto-flow: row;
+}
+
+.flex {
+  display: flex;
+}
+.flex-1 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.flex-2 {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+}
+.space-between {
+  justify-content: space-between;
+}
+.align-center {
+  align-items: center;
+}
+.input {
+  width: 50px;
+  margin-left: 5px;
+}
+.unclicked,
+.clicked {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid 2px #7b7b7b;
+  border-right: solid 2px #7b7b7b;
+  min-height: 50px;
+  min-width: 50px;
+  background: #c8ced8;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  vertical-align: middle;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-color: #bdbdbd;
+  cursor: pointer;
+  color: maroon;
+}
+.unclicked {
+  border-top: solid 2px #fff;
+  border-left: solid 2px #fff;
+}
+.clicked {
+  border-bottom: none;
+  border-right: none;
+}
+.score {
+  justify-content: flex-end;
+}
+.button {
+  width: 100%;
+  margin: 5px;
+  height: 40px;
+  color: blue;
+}
